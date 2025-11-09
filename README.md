@@ -120,53 +120,59 @@ Parce que toute la société est mobilisée :
 
 ---
 
-
 # 🧮 Révision — Statistiques (3ᵉ Collège)
+
+---
 
 ## 📘 1. Rappel du cours
 
 ### ➤ Les notions principales
 
-- **Effectif** : nombre de fois qu’une valeur apparaît.  
-- **Effectif total** : somme de tous les effectifs.  
-- **Fréquence** :  
-  \[
-  \text{Fréquence} = \frac{\text{Effectif}}{\text{Effectif total}}
-  \]
-- **Étendue** :  
-  \[
-  \text{Étendue} = \text{Valeur max} - \text{Valeur min}
-  \]
-- **Moyenne** :  
-  \[
-  \text{Moyenne} = \frac{\text{Somme des valeurs}}{\text{Effectif total}}
-  \]
+- **Effectif** : nombre de fois qu'une valeur apparaît.
+
+- **Effectif total** : somme de tous les effectifs.
+
+- **Fréquence** :
+  $$\text{Fréquence} = \frac{\text{Effectif}}{\text{Effectif total}}$$
+
+- **Étendue** :
+  $$\text{Étendue} = \text{Valeur max} - \text{Valeur min}$$
+
+- **Moyenne** :
+  $$\text{Moyenne} = \frac{\text{Somme des valeurs}}{\text{Effectif total}}$$
+
 - **Médiane** :  
   Valeur qui partage la série en deux parties de même effectif.  
-  (Si 30 élèves → la médiane est entre la 15ᵉ et la 16ᵉ valeur classée)
-- **Histogramme** : représentation graphique des effectifs par classes d’intervalles.
+  *(Exemple : Si 30 élèves → la médiane est entre la 15ᵉ et la 16ᵉ valeur classée)*
+
+- **Histogramme** : représentation graphique des effectifs par classes d'intervalles.
 
 ---
 
-## ✏️ 2. Exercices d’entraînement (niveau moyen)
+## ✏️ 2. Exercices d'entraînement (niveau moyen)
 
 ### **Exercice 1**
 
-Voici les notes d’un contrôle :  
-4, 7, 5, 9, 10, 12, 14, 8, 10, 7, 6, 13, 11, 15, 9
+Voici les notes d'un contrôle :  
+**4, 7, 5, 9, 10, 12, 14, 8, 10, 7, 6, 13, 11, 15, 9**
 
-1. Calcule l’effectif total.  
-2. Calcule la moyenne.  
-3. Trouve l’étendue.  
+**Questions :**
+1. Calcule l'effectif total.
+2. Calcule la moyenne.
+3. Trouve l'étendue.
 4. Détermine la médiane.
 
 #### ✅ **Correction**
 
-1. Effectif total = 15  
-2. Moyenne = (4 + 7 + 5 + 9 + 10 + 12 + 14 + 8 + 10 + 7 + 6 + 13 + 11 + 15 + 9) / 15  
-   = 140 / 15 = **9,33**  
-3. Étendue = 15 − 4 = **11**  
-4. Valeurs triées : 4, 5, 6, 7, 7, 8, 9, **9**, 10, 10, 11, 12, 13, 14, 15  
+1. **Effectif total** = 15
+
+2. **Moyenne** :
+   $$\bar{x} = \frac{4 + 7 + 5 + 9 + 10 + 12 + 14 + 8 + 10 + 7 + 6 + 13 + 11 + 15 + 9}{15} = \frac{140}{15} = \mathbf{9,33}$$
+
+3. **Étendue** = 15 − 4 = **11**
+
+4. **Médiane** :  
+   Valeurs triées : 4, 5, 6, 7, 7, 8, 9, **9**, 10, 10, 11, 12, 13, 14, 15  
    → Médiane = **9**
 
 ---
@@ -176,76 +182,78 @@ Voici les notes d’un contrôle :
 On donne le tableau suivant :
 
 | Classe de notes | [0 ; 5[ | [5 ; 10[ | [10 ; 15[ | [15 ; 20] |
-|-----------------|----------|-----------|------------|-----------|
-| Effectif        | 4        | 10        | 9          | 7         |
+|-----------------|---------|----------|-----------|-----------|
+| Effectif        | 4       | 10       | 9         | 7         |
 
-1. Calcule l’effectif total.  
-2. Calcule la fréquence de chaque classe.  
+**Questions :**
+1. Calcule l'effectif total.
+2. Calcule la fréquence de chaque classe.
 3. Donne une estimation de la moyenne (en prenant le centre de chaque classe).
 
 #### ✅ **Correction**
 
-1. Effectif total = 4 + 10 + 9 + 7 = **30**  
-2. Fréquences :  
-   - [0 ; 5[ : 4/30 = 0,13  
-   - [5 ; 10[ : 10/30 = 0,33  
-   - [10 ; 15[ : 9/30 = 0,30  
-   - [15 ; 20] : 7/30 = 0,23  
-3. Centres des classes : 2,5 ; 7,5 ; 12,5 ; 17,5  
-   \[
-   \bar{x} = \frac{(2,5×4) + (7,5×10) + (12,5×9) + (17,5×7)}{30} = \frac{375}{30} = 12,5
-   \]  
-   → Moyenne ≈ **12,5**
+1. **Effectif total** = 4 + 10 + 9 + 7 = **30**
+
+2. **Fréquences** :
+   - [0 ; 5[ : 4/30 = **0,13**
+   - [5 ; 10[ : 10/30 = **0,33**
+   - [10 ; 15[ : 9/30 = **0,30**
+   - [15 ; 20] : 7/30 = **0,23**
+
+3. **Moyenne estimée** :  
+   Centres des classes : 2,5 ; 7,5 ; 12,5 ; 17,5
+   $$\bar{x} = \frac{(2,5 \times 4) + (7,5 \times 10) + (12,5 \times 9) + (17,5 \times 7)}{30} = \frac{375}{30} = \mathbf{12,5}$$
 
 ---
 
-## 🧠 3. Exercice type examen (comme celui de l’image)
+## 🧠 3. Exercice type examen
 
 Un professeur a noté un contrôle de maths. Voici la répartition des notes (30 élèves) :
 
 | Classe de notes | [0 ; 3[ | [4 ; 7[ | [8 ; 11[ | [12 ; 15[ | [16 ; 20] | Total |
-|-----------------|----------|----------|-----------|------------|-----------|--------|
-| Effectif        | 5        | 6        | 9         | 6          | 4         | 30     |
+|-----------------|---------|---------|----------|-----------|-----------|-------|
+| Effectif        | 5       | 6       | 9        | 6         | 4         | 30    |
 
 ### **Questions**
 
-1. Quelle est l’étendue des notes ?  
-2. Quelle est la moyenne approximative de la classe ?  
-3. Détermine la note médiane.  
-4. Parmi 7,7 ; 10,9 ; 10 ; 10,35, laquelle peut être la moyenne exacte ?  
+1. Quelle est l'étendue des notes ?
+2. Quelle est la moyenne approximative de la classe ?
+3. Détermine la note médiane.
+4. Parmi 7,7 ; 10,9 ; 10 ; 10,35, laquelle peut être la moyenne exacte ?
 5. Invente une série de 30 notes entières correspondant à cette répartition.
 
 ---
 
 ### ✅ **Correction détaillée**
 
-1. **Étendue :** 20 − 0 = **20**  
-2. **Moyenne approximative :**  
-   Centres des classes = 1,5 ; 5,5 ; 9,5 ; 13,5 ; 18  
-   \[
-   \bar{x} = \frac{(1,5×5) + (5,5×6) + (9,5×9) + (13,5×6) + (18×4)}{30} = \frac{306}{30} = 10,2
-   \]  
-   → Moyenne ≈ **10,2** → donc **10** ou **10,35** peuvent convenir.  
-3. **Médiane :** 30 élèves → médiane entre la 15ᵉ et la 16ᵉ note.  
-   Cumul des effectifs :  
-   - [0 ; 3[ → 5  
-   - [4 ; 7[ → 11  
-   - [8 ; 11[ → 20  
-   Donc la médiane est dans la classe **[8 ; 11[** → **médiane ≈ 9,5**  
-4. **Moyenne possible :** **10** ou **10,35**  
-5. **Série possible (exemple)** :
-1, 2, 3, 2, 1,
-4, 5, 5, 6, 7, 7,
-8, 8, 9, 9, 9, 10, 10, 11,
-12, 13, 13, 14, 14, 15,
-16, 17, 18, 19, 20
+1. **Étendue** : 20 − 0 = **20**
 
-Vérifications :  
-- Moyenne ≈ 10  
-- Étendue = 20 − 1 = 19 (≈ 20 selon les classes)  
-- Médiane ≈ 9–10  
+2. **Moyenne approximative** :  
+   Centres des classes = 1,5 ; 5,5 ; 9,5 ; 13,5 ; 18
+   $$\bar{x} = \frac{(1,5 \times 5) + (5,5 \times 6) + (9,5 \times 9) + (13,5 \times 6) + (18 \times 4)}{30} = \frac{306}{30} = \mathbf{10,2}$$
+   → Moyenne ≈ **10,2** → donc **10** ou **10,35** peuvent convenir.
+
+3. **Médiane** :  
+   30 élèves → médiane entre la 15ᵉ et la 16ᵉ note.  
+   Cumul des effectifs :
+   - [0 ; 3[ → 5
+   - [4 ; 7[ → 11
+   - [8 ; 11[ → 20
+   
+   Donc la médiane est dans la classe **[8 ; 11[** → **médiane ≈ 9,5**
+
+4. **Moyenne possible** : **10** ou **10,35**
+
+5. **Série possible (exemple)** :  
+   1, 2, 3, 2, 1, 4, 5, 5, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 12, 13, 13, 14, 14, 15, 16, 17, 18, 19, 20
+
+   **Vérifications** :
+   - Moyenne ≈ 10
+   - Étendue = 20 − 1 = 19 (≈ 20 selon les classes)
+   - Médiane ≈ 9–10
 
 ---
 
 📄 *Document de révision préparé pour une séance de statistique — Niveau Troisième (France).*
+
 
