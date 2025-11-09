@@ -1,145 +1,121 @@
-# 📘 Synthèse de cours - 6ᵉ : Nombres Décimaux & Droites
+# 🪖 La Première Guerre mondiale (1914-1918)
 
-## 🧮 Partie 1 : Les opérations sur les nombres décimaux
-
-### 🔹 1. Addition et soustraction
-- On **aligne les virgules** avant de calculer.
-- On additionne ou soustrait **chiffre par chiffre** comme avec des entiers.
-- On **place la virgule** du résultat sous celles des nombres.
-
-#### 🧠 Exemple :
-> 12,45 + 3,6 = 16,05  
-> 8,25 − 2,7 = 5,55  
+## 🎯 Objectifs du cours
+- Comprendre les causes, le déroulement et les conséquences de la Première Guerre mondiale.  
+- Identifier les caractéristiques d’une guerre **totale** et **industrielle**.  
+- Découvrir comment cette guerre a bouleversé les sociétés européennes.
 
 ---
 
-### 🔹 2. Multiplication
-- On **ignore la virgule** pour multiplier comme des entiers.
-- On **compte le nombre total de chiffres après la virgule** dans les deux facteurs.
-- On **replace la virgule** dans le résultat final.
+## 🧨 1. Les causes de la guerre
 
-#### 🧠 Exemple :
-> 2,3 × 1,2 = (23 × 12) ÷ 100 = 276 ÷ 100 = **2,76**
+### 🔹 Les tensions en Europe avant 1914
+- **Nationalismes** : chaque pays veut affirmer sa puissance (ex : la France veut récupérer l’Alsace-Lorraine).  
+- **Rivalités économiques et coloniales** (entre la France, le Royaume-Uni et l’Allemagne).  
+- **Système d’alliances** :
+  - **Triple Entente** : France 🇫🇷, Royaume-Uni 🇬🇧, Russie 🇷🇺  
+  - **Triple Alliance** : Allemagne 🇩🇪, Autriche-Hongrie 🇦🇹, Italie 🇮🇹  
 
----
-
-### 🔹 3. Division
-- On peut **multiplier les deux nombres** par 10, 100, 1000… pour **supprimer la virgule du diviseur**.
-- On effectue ensuite la division normalement.
-
-#### 🧠 Exemple :
-> 6,3 ÷ 0,3  
-> Multiplions par 10 → 63 ÷ 3 = **21**
+### 💥 Déclenchement
+- **28 juin 1914** : assassinat de l’archiduc François-Ferdinand (héritier d’Autriche-Hongrie) à Sarajevo.  
+- En quelques semaines, les alliances s’activent : **la guerre éclate en août 1914**.
 
 ---
 
-### 🧩 Exercices - Nombres décimaux
+## ⚔️ 2. Le déroulement de la guerre
 
-#### 🟢 Facile :
-1. 5,2 + 3,8 = ?  
-2. 7,5 − 2,3 = ?  
+### 🔸 1914 : guerre de mouvement
+- L’Allemagne attaque la France par la Belgique (plan Schlieffen).  
+- Les Français arrêtent les Allemands à la **bataille de la Marne (septembre 1914)**.  
+➡️ Le front se stabilise : début de la **guerre de tranchées**.
 
-✅ **Correction :**
-1. 9,0  
-2. 5,2  
+### 🔸 1915-1917 : guerre de position
+- Les soldats s’enterrent dans des **tranchées**.  
+- Conditions horribles : boue, froid, rats, cadavres.  
+- Exemples de grandes batailles :
+  - **Verdun (1916)** : symbole de la guerre d’usure (300 000 morts).  
+  - **Somme (1916)** : plus d’un million de morts.  
+- Les civils participent à l’effort de guerre : usines, impôts, rationnement.
 
----
+### 🔸 1917 : tournant de la guerre
+- **Entrée des États-Unis** (avril 1917).  
+- **Révolutions russes** : la Russie se retire du conflit.  
+- **Fatigue et mutineries** dans les armées.
 
-#### 🟠 Moyen :
-1. 4,25 × 0,3 = ?  
-2. 12,6 ÷ 0,6 = ?  
-
-✅ **Correction :**
-1. 1,275  
-2. 21  
-
----
-
-#### 🔴 Difficile :
-1. (3,2 + 1,45) × 0,5 = ?  
-2. 6,75 ÷ 0,15 = ?  
-
-✅ **Correction :**
-1. (4,65) × 0,5 = **2,325**  
-2. 6,75 ÷ 0,15 = (675 ÷ 15) = **45**
+### 🔸 1918 : fin de la guerre
+- Les Alliés reprennent l’avantage grâce aux Américains.  
+- **Armistice signé le 11 novembre 1918** à Rethondes.  
 
 ---
 
-## 📏 Partie 2 : Les Droites
+## ⚰️ 3. Les conséquences
 
-### 🔹 1. Définitions
-- **Droite** : ligne infinie sans épaisseur ni courbure.  
-- **Segment** : portion de droite délimitée par deux points.  
-- **Demi-droite** : partie d’une droite limitée d’un seul côté.
+### 🔹 Bilan humain et matériel
+- Environ **10 millions de morts** et **6 millions de mutilés** (“gueules cassées”).  
+- **Destruction** massive en Europe (villages, usines, routes).  
+- **Traumatismes psychologiques** profonds.
 
----
-
-### 🔹 2. Positions relatives de deux droites
-- **Sécantes** : elles se coupent en un point.  
-- **Parallèles** : elles ne se coupent jamais.  
-- **Perpendiculaires** : elles se coupent en formant un angle droit (90°).
-
----
-
-### 🔹 3. Représentation
-- Une droite est souvent notée avec **deux points** :  
-  Exemple : la droite **(AB)** passe par les points A et B.  
-- Une demi-droite se note **[AB)**  
-- Un segment se note **[AB]**
+### 🔹 Conséquences politiques
+- **Traité de Versailles (1919)** : l’Allemagne est jugée responsable.  
+  - Elle perd des territoires (Alsace-Lorraine à la France).  
+  - Elle doit payer des **réparations**.  
+- Disparition des **empires** (Autriche-Hongrie, Ottoman, Russe).  
+- Naissance de nouveaux pays (Pologne, Tchécoslovaquie, Yougoslavie…).
 
 ---
 
-### 🧩 Exercices - Droites
+## 🧠 Notions clés
 
-#### 🟢 Facile :
-1. Quelle est la différence entre une droite et un segment ?  
-2. Donne un exemple de deux droites parallèles dans un cahier.
-
-✅ **Correction :**
-1. La droite est infinie, le segment est limité.  
-2. Les lignes du cahier sont parallèles.
-
----
-
-#### 🟠 Moyen :
-1. Trace deux droites sécantes (AB) et (CD).  
-2. Marque leur point d’intersection E.
-
-✅ **Correction :**
-Le point E est le **point commun** entre les droites (AB) et (CD).
+| Terme | Définition |
+|-------|-------------|
+| Tranchée | Fossé où vivent et combattent les soldats. |
+| Armistice | Accord mettant fin aux combats. |
+| Guerre totale | Guerre mobilisant toute la société (soldats, civils, économie…). |
+| Poilu | Surnom donné aux soldats français. |
+| Propagande | Ensemble des moyens utilisés pour influencer l’opinion publique. |
 
 ---
 
-#### 🔴 Difficile :
-1. Trace une droite (d).  
-2. Trace par un point A hors de (d) :
-   - la **parallèle** à (d),
-   - la **perpendiculaire** à (d).
+## 📅 Dates à retenir
 
-✅ **Correction :**
-- Utilise l’équerre pour tracer la perpendiculaire à (d).  
-- Utilise la règle et l’équerre pour tracer la parallèle passant par A.
-
----
-
-### 🧾 Résumé général
-
-| Notion | Définition | Exemple |
-|--------|-------------|----------|
-| Nombre décimal | Nombre avec une virgule | 3,14 |
-| Droite | Ligne infinie | (AB) |
-| Segment | Portion de droite | [AB] |
-| Parallèles | Ne se coupent jamais | Lignes du cahier |
-| Perpendiculaires | Se coupent à 90° | Coins du cahier |
+| Date | Événement |
+|------|------------|
+| 28 juin 1914 | Assassinat de François-Ferdinand |
+| Août 1914 | Début de la guerre |
+| Septembre 1914 | Bataille de la Marne |
+| 1916 | Bataille de Verdun |
+| Avril 1917 | Entrée en guerre des États-Unis |
+| 11 novembre 1918 | Armistice |
+| 1919 | Traité de Versailles |
 
 ---
 
-### 🎯 À retenir
-- Toujours **aligner les virgules** dans les calculs.  
-- Une droite est **infinie**, un segment est **limité**.  
-- Utiliser **règle, équerre, compas** pour les constructions.
+## 📝 Exercices avec correction
+
+### 🟢 Niveau facile
+**Question :** Quelles sont les deux grandes alliances avant 1914 ?  
+**Réponse :**
+- Triple Entente : France, Royaume-Uni, Russie  
+- Triple Alliance : Allemagne, Autriche-Hongrie, Italie  
 
 ---
 
-**👨‍🏫 Auteur :** Monir El Ouarroudi  
-**📚 Niveau :** 6ᵉ – Mathématiques  
+### 🟡 Niveau moyen
+**Question :** Pourquoi parle-t-on de “guerre totale” ?  
+**Correction :**  
+Parce que toute la société est mobilisée :  
+- les soldats combattent,  
+- les civils travaillent dans les usines, subissent le rationnement,  
+- les États utilisent la propagande.  
+
+---
+
+### 🔴 Niveau difficile
+**Question :** En quoi la Première Guerre mondiale a-t-elle bouleversé le monde ?  
+**Correction :**  
+- Elle a fait des millions de morts et de blessés.  
+- Elle a détruit des régions entières.  
+- Elle a provoqué la chute des grands empires.  
+- Elle a redessiné la carte de l’Europe et préparé la Seconde Guerre mondiale.  
+
+---
