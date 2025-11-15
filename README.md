@@ -206,7 +206,13 @@ On donne le tableau suivant :
 
 ---
 
-## 🧠 3. Exercice type examen
+# EXERCICES DE STATISTIQUES - NIVEAU 3ème
+
+---
+
+## 📊 EXERCICE 1 - Contrôle de mathématiques (Version A)
+
+### 📋 Énoncé
 
 Un professeur a noté un contrôle de maths. Voici la répartition des notes (30 élèves) :
 
@@ -214,7 +220,7 @@ Un professeur a noté un contrôle de maths. Voici la répartition des notes (30
 |-----------------|---------|---------|----------|-----------|-----------|-------|
 | Effectif        | 5       | 6       | 9        | 6         | 4         | 30    |
 
-### **Questions**
+### ❓ Questions
 
 1. Quelle est l'étendue des notes ?
 2. Quelle est la moyenne approximative de la classe ?
@@ -224,45 +230,174 @@ Un professeur a noté un contrôle de maths. Voici la répartition des notes (30
 
 ---
 
-### ✅ **Correction détaillée**
+### ✅ CORRECTION DÉTAILLÉE - Exercice 1
 
-1. **Étendue** : 20 − 0 = **20**
+#### Question 1 : Étendue
 
-2. **Moyenne approximative** :  
-   Centres des classes = 1,5 ; 5,5 ; 9,5 ; 13,5 ; 18
-   $$\bar{x} = \frac{(1,5 \times 5) + (5,5 \times 6) + (9,5 \times 9) + (13,5 \times 6) + (18 \times 4)}{30} = \frac{306}{30} = \mathbf{10,2}$$
-   → Moyenne ≈ **10,2** → donc **10** ou **10,35** peuvent convenir.
+**Méthode :** L'étendue = valeur maximale − valeur minimale.
 
-3. **Médiane** :  
-   30 élèves → médiane entre la 15ᵉ et la 16ᵉ note.  
-   Cumul des effectifs :
-   - [0 ; 3[ → 5
-   - [4 ; 7[ → 11
-   - [8 ; 11[ → 20
-   
-   Donc la médiane est dans la classe **[8 ; 11[** → **médiane ≈ 9,5**
+D'après les bornes des classes :
+- Valeur minimale possible = **0** (borne inférieure de la première classe)
+- Valeur maximale possible = **20** (borne supérieure de la dernière classe)
 
-4. **Moyenne possible** : **10** ou **10,35**
+**Calcul :**
+```
+Étendue = 20 − 0 = 20
+```
 
-5. **Série possible (exemple)** :  
-   1, 2, 3, 2, 1, 4, 5, 5, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 12, 13, 13, 14, 14, 15, 16, 17, 18, 19, 20
+**Réponse :** Étendue = **20**
 
-   **Vérifications** :
-   - Moyenne ≈ 10
-   - Étendue = 20 − 1 = 19 (≈ 20 selon les classes)
-   - Médiane ≈ 9–10
+> ⚠️ **Remarque :** C'est l'étendue **théorique** déduite des classes. Une série concrète peut avoir une étendue plus petite si aucun élève n'a exactement 0 ou 20.
 
 ---
 
-📄 *Document de révision préparé pour une séance de statistique — Niveau Troisième (France).*
+#### Question 2 : Moyenne approximative (par centres de classes)
 
+**Méthode :** On calcule le centre de chaque classe, puis on fait une moyenne pondérée.
 
+**Étape 1 : Calculer les centres de chaque classe**
 
-# 🧮 Exercice type examen — Version supplémentaire (avec correction)
+| Classe | Calcul du centre | Centre |
+|--------|------------------|--------|
+| [0 ; 3[ | (0 + 3) ÷ 2 | 1,5 |
+| [4 ; 7[ | (4 + 7) ÷ 2 | 5,5 |
+| [8 ; 11[ | (8 + 11) ÷ 2 | 9,5 |
+| [12 ; 15[ | (12 + 15) ÷ 2 | 13,5 |
+| [16 ; 20] | (16 + 20) ÷ 2 | 18 |
+
+**Étape 2 : Multiplier chaque centre par son effectif**
+
+| Centre | Effectif | Produit (centre × effectif) |
+|--------|----------|----------------------------|
+| 1,5 | 5 | 1,5 × 5 = **7,5** |
+| 5,5 | 6 | 5,5 × 6 = **33** |
+| 9,5 | 9 | 9,5 × 9 = **85,5** |
+| 13,5 | 6 | 13,5 × 6 = **81** |
+| 18 | 4 | 18 × 4 = **72** |
+
+**Étape 3 : Additionner les produits**
+
+```
+7,5 + 33 = 40,5
+40,5 + 85,5 = 126
+126 + 81 = 207
+207 + 72 = 279
+```
+
+**Somme totale = 279**
+
+**Étape 4 : Diviser par le nombre total d'élèves**
+
+```
+Moyenne = 279 ÷ 30 = 9,3
+```
+
+**Réponse :** Moyenne approximative = **9,3**
 
 ---
 
-## 📋 Énoncé
+#### Question 3 : Médiane
+
+**Méthode :** Pour 30 élèves (nombre pair), la médiane est la moyenne de la 15ᵉ et de la 16ᵉ valeur triées.
+
+**Étape 1 : Calculer les effectifs cumulés**
+
+| Classe | Effectif | Effectif cumulé | Positions |
+|--------|----------|-----------------|-----------|
+| [0 ; 3[ | 5 | 5 | 1 → 5 |
+| [4 ; 7[ | 6 | 5 + 6 = **11** | 6 → 11 |
+| [8 ; 11[ | 9 | 11 + 9 = **20** | 12 → 20 |
+| [12 ; 15[ | 6 | 20 + 6 = 26 | 21 → 26 |
+| [16 ; 20] | 4 | 26 + 4 = 30 | 27 → 30 |
+
+**Étape 2 : Repérer la classe médiane**
+
+Les positions **15 et 16** se trouvent dans la classe **[8 ; 11[** (positions 12 à 20).
+
+**Étape 3 : Estimer la médiane**
+
+On prend le centre de cette classe : **(8 + 11) ÷ 2 = 9,5**
+
+**Réponse :** Médiane ≈ **9,5**
+
+> 💡 **Note :** Si on avait la série exacte, on calculerait précisément la 15ᵉ et 16ᵉ valeurs et on ferait leur moyenne.
+
+---
+
+#### Question 4 : Moyenne exacte possible
+
+**Critère principal :** La moyenne exacte d'une série de 30 notes entières est **Somme ÷ 30**.
+
+Pour que la moyenne soit exacte, il faut que **Moyenne × 30 = nombre entier**.
+
+**Vérification pour chaque valeur :**
+
+| Valeur | Calcul | Résultat | Possible ? |
+|--------|--------|----------|------------|
+| 7,7 | 7,7 × 30 = 231 | Entier ✓ | **OUI** |
+| 10,9 | 10,9 × 30 = 327 | Entier ✓ | **OUI** |
+| 10 | 10 × 30 = 300 | Entier ✓ | **OUI** |
+| 10,35 | 10,35 × 30 = 310,5 | **Non entier** ✗ | **NON** |
+
+**Réponse :** Les valeurs **7,7 ; 10,9 et 10** sont possibles. **10,35 est impossible** (donne une somme non entière).
+
+**Remarque pratique :** Comparé à la moyenne estimée (9,3), la valeur **10** est la plus plausible.
+
+---
+
+#### Question 5 : Exemple de série de 30 notes entières
+
+**Objectif :** Construire une série respectant les effectifs de chaque classe.
+
+**Répartition souhaitée :**
+- 5 notes dans [0 ; 3[ (valeurs possibles : 0, 1, 2)
+- 6 notes dans [4 ; 7[ (valeurs possibles : 4, 5, 6)
+- 9 notes dans [8 ; 11[ (valeurs possibles : 8, 9, 10)
+- 6 notes dans [12 ; 15[ (valeurs possibles : 12, 13, 14)
+- 4 notes dans [16 ; 20] (valeurs possibles : 16, 17, 18, 19, 20)
+
+**Série proposée (triée) :**
+
+```
+1, 1, 1, 2, 2,
+5, 5, 5, 6, 6, 6,
+9, 9, 9, 9, 10, 10, 10, 10, 10,
+13, 13, 13, 14, 14, 14,
+18, 18, 18, 18
+```
+
+**Vérification des effectifs :**
+
+| Classe | Notes dans la série | Nombre |
+|--------|---------------------|--------|
+| [0 ; 3[ | 1, 1, 1, 2, 2 | 5 ✓ |
+| [4 ; 7[ | 5, 5, 5, 6, 6, 6 | 6 ✓ |
+| [8 ; 11[ | 9, 9, 9, 9, 10, 10, 10, 10, 10 | 9 ✓ |
+| [12 ; 15[ | 13, 13, 13, 14, 14, 14 | 6 ✓ |
+| [16 ; 20] | 18, 18, 18, 18 | 4 ✓ |
+
+**Vérification de la somme :**
+
+- Groupe 1 : 1 + 1 + 1 + 2 + 2 = **7**
+- Groupe 2 : 5 + 5 + 5 + 6 + 6 + 6 = **33**
+- Groupe 3 : (9 × 4) + (10 × 5) = 36 + 50 = **86**
+- Groupe 4 : (13 × 3) + (14 × 3) = 39 + 42 = **81**
+- Groupe 5 : 18 × 4 = **72**
+
+**Somme totale :** 7 + 33 + 86 + 81 + 72 = **279**
+
+**Moyenne exacte :** 279 ÷ 30 = **9,3** ✓
+
+**Médiane exacte :**
+- 15ᵉ valeur = 9
+- 16ᵉ valeur = 10
+- Médiane = (9 + 10) ÷ 2 = **9,5** ✓
+
+---
+
+## 📊 EXERCICE 2 - Contrôle de mathématiques (Version B)
+
+### 📋 Énoncé
 
 Un professeur a noté un contrôle de mathématiques pour 30 élèves. Le tableau donne la répartition suivante :
 
@@ -270,110 +405,136 @@ Un professeur a noté un contrôle de mathématiques pour 30 élèves. Le tablea
 |-----------------|---------|---------|----------|-----------|-----------|-------|
 | Effectif        | 3       | 8       | 10       | 6         | 3         | 30    |
 
-### **Questions**
+### ❓ Questions
 
 1. Calculez l'étendue des notes.
 2. Donnez une estimation de la moyenne en utilisant le **centre** de chaque classe. *(Montrer les calculs.)*
 3. Déterminez la note médiane *(en justifiant)*.
 4. Parmi les nombres suivants, lesquels peuvent correspondre à la **moyenne exacte** de la classe ? Justifiez : **9,9 ; 10,2 ; 10,5 ; 11,0**
-5. Donnez **une** série de 30 notes entières (comprise entre 0 et 20) correspondant exactement à la répartition donnée *(respecter les effectifs par classe)*. Vérifiez la moyenne et la médiane pour votre série.
+5. Donnez **une** série de 30 notes entières (comprise entre 0 et 20) correspondant exactement à la répartition donnée. Vérifiez la moyenne et la médiane pour votre série.
 
 ---
 
-## ✅ Correction détaillée
+### ✅ CORRECTION DÉTAILLÉE - Exercice 2
 
-### 1) Étendue
+#### Question 1 : Étendue
 
-- Valeur maximale possible dans les classes = 20
-- Valeur minimale possible = 0
+**Méthode :** L'étendue = valeur maximale − valeur minimale.
 
-$$\text{Étendue} = 20 - 0 = \boxed{20}$$
+- Valeur maximale possible = **20**
+- Valeur minimale possible = **0**
 
----
+**Calcul :**
+```
+Étendue = 20 − 0 = 20
+```
 
-### 2) Estimation de la moyenne par centres de classes
-
-On prend le **centre** (milieu) de chaque classe :
-
-- Centre [0 ; 4] = (0 + 4) / 2 = **2**
-- Centre [5 ; 8] = (5 + 8) / 2 = **6,5**
-- Centre [9 ; 12] = (9 + 12) / 2 = **10,5**
-- Centre [13 ; 16] = (13 + 16) / 2 = **14,5**
-- Centre [17 ; 20] = (17 + 20) / 2 = **18,5**
-
-**Calcul de la somme pondérée :**
-
-$$S = (2 \times 3) + (6{,}5 \times 8) + (10{,}5 \times 10) + (14{,}5 \times 6) + (18{,}5 \times 3)$$
-
-**Calculs pas à pas :**
-
-- 2 × 3 = 6
-- 6,5 × 8 = 52
-- 10,5 × 10 = 105
-- 14,5 × 6 = 87
-- 18,5 × 3 = 55,5
-
-**Somme :** S = 6 + 52 + 105 + 87 + 55,5 = **305,5**
-
-**Moyenne estimée :**
-
-$$\bar{x} \approx \frac{305{,}5}{30} = 10{,}183... \approx \boxed{10{,}18}$$
-
-> **Remarque :** C'est une approximation (on a utilisé les centres de classes). La moyenne exacte dépendra des notes entières réelles.
+**Réponse :** Étendue = **20**
 
 ---
 
-### 3) Médiane
+#### Question 2 : Moyenne estimée par centres de classes
 
-- Il y a 30 élèves → la médiane est la moyenne de la **15ᵉ et de la 16ᵉ valeurs** triées.
+**Étape 1 : Calculer les centres de chaque classe**
 
-**Calcul des effectifs cumulés par classe :**
+| Classe | Calcul du centre | Centre |
+|--------|------------------|--------|
+| [0 ; 4] | (0 + 4) ÷ 2 | 2 |
+| [5 ; 8] | (5 + 8) ÷ 2 | 6,5 |
+| [9 ; 12] | (9 + 12) ÷ 2 | 10,5 |
+| [13 ; 16] | (13 + 16) ÷ 2 | 14,5 |
+| [17 ; 20] | (17 + 20) ÷ 2 | 18,5 |
 
-- [0 ; 4] → 3 (positions 1 à 3)
-- [5 ; 8] → 3 + 8 = 11 (positions 4 à 11)
-- [9 ; 12] → 11 + 10 = 21 (positions 12 à 21)
+**Étape 2 : Multiplier chaque centre par son effectif**
 
-Donc les **15ᵉ et 16ᵉ valeurs** se trouvent **dans la classe [9 ; 12]**.
+| Centre | Effectif | Produit détaillé | Résultat |
+|--------|----------|------------------|----------|
+| 2 | 3 | 2 × 3 | **6** |
+| 6,5 | 8 | 6,5 × 8 = (6 × 8) + (0,5 × 8) = 48 + 4 | **52** |
+| 10,5 | 10 | 10,5 × 10 | **105** |
+| 14,5 | 6 | 14,5 × 6 = (14 × 6) + (0,5 × 6) = 84 + 3 | **87** |
+| 18,5 | 3 | 18,5 × 3 = (18 × 3) + (0,5 × 3) = 54 + 1,5 | **55,5** |
 
-**Estimation de la médiane** (par le centre de la classe) : **≈ 10,5**
+**Étape 3 : Additionner les produits (somme pondérée)**
 
-Si l'on veut une valeur « plausible » entière, la médiane se situe autour de **10** ou **11** selon les notes exactes.
+```
+6 + 52 = 58
+58 + 105 = 163
+163 + 87 = 250
+250 + 55,5 = 305,5
+```
 
-**Conclusion :** La classe médiane est **[9 ; 12]** → **médiane ≈ 10,5**
+**Somme totale = 305,5**
+
+**Étape 4 : Diviser par le nombre total d'élèves**
+
+```
+Moyenne = 305,5 ÷ 30 = 10,183... ≈ 10,18
+```
+
+**Réponse :** Moyenne estimée ≈ **10,18**
+
+> ⚠️ **Remarque :** C'est une approximation (on a utilisé les centres de classes). La moyenne exacte dépendra des notes entières réelles.
 
 ---
 
-### 4) Parmi 9,9 ; 10,2 ; 10,5 ; 11,0, laquelle peut être la moyenne exacte ?
+#### Question 3 : Médiane
 
-- La moyenne estimée par centres est ≈ **10,18**.
-- Une moyenne exacte issue d'une série de 30 notes entières doit être de la forme N/30 où N est entier (la somme des notes).
+**Méthode :** Pour 30 élèves, la médiane est la moyenne de la **15ᵉ et 16ᵉ valeurs** triées.
 
-**Analyse :**
+**Étape 1 : Calculer les effectifs cumulés**
 
-- **9,9** = 297/30 → possible (si somme = 297)
-- **10,2** = 306/30 → possible (si somme = 306)
-- **10,5** = 315/30 → possible (si somme = 315)
-- **11,0** = 330/30 → possible (si somme = 330)
+| Classe | Effectif | Effectif cumulé | Positions |
+|--------|----------|-----------------|-----------|
+| [0 ; 4] | 3 | 3 | 1 → 3 |
+| [5 ; 8] | 8 | 3 + 8 = **11** | 4 → 11 |
+| [9 ; 12] | 10 | 11 + 10 = **21** | 12 → 21 |
+| [13 ; 16] | 6 | 21 + 6 = 27 | 22 → 27 |
+| [17 ; 20] | 3 | 27 + 3 = 30 | 28 → 30 |
 
-**Conclusion :** Tous ces nombres peuvent être une moyenne exacte en théorie (ils sont des rationnels de la forme entier/30).
+**Étape 2 : Repérer la classe médiane**
 
-Mais, en se basant sur l'estimation par centres (~10,18), les valeurs **les plus plausibles** sont **9,9** ou **10,2**.
+Les positions **15 et 16** se trouvent dans la classe **[9 ; 12]** (positions 12 à 21).
 
-→ **Réponse pratique :** **10,2** est celle qui correspond le mieux à l'estimation par classes.
+**Étape 3 : Estimer la médiane**
+
+Centre de la classe [9 ; 12] = **(9 + 12) ÷ 2 = 10,5**
+
+**Réponse :** Classe médiane = **[9 ; 12]** → Médiane ≈ **10,5**
 
 ---
 
-### 5) Exemple de série de 30 notes entières respectant la répartition
+#### Question 4 : Moyennes exactes possibles
 
-Nous devons fournir :
+**Critère :** Pour 30 notes entières, il faut que **Moyenne × 30 = nombre entier**.
 
+**Vérification pour chaque valeur :**
+
+| Valeur | Calcul | Résultat | Possible ? |
+|--------|--------|----------|------------|
+| 9,9 | 9,9 × 30 = 297 | Entier ✓ | **OUI** (somme = 297) |
+| 10,2 | 10,2 × 30 = 306 | Entier ✓ | **OUI** (somme = 306) |
+| 10,5 | 10,5 × 30 = 315 | Entier ✓ | **OUI** (somme = 315) |
+| 11,0 | 11,0 × 30 = 330 | Entier ✓ | **OUI** (somme = 330) |
+
+**Conclusion mathématique :** Toutes ces valeurs sont **mathématiquement possibles**.
+
+**Conclusion pratique :** En se basant sur l'estimation par centres (~10,18), les valeurs **les plus plausibles** sont **9,9** ou **10,2**.
+
+**Réponse :** Toutes sont possibles, mais **10,2** correspond le mieux à l'estimation.
+
+---
+
+#### Question 5 : Exemple de série de 30 notes entières
+
+**Répartition souhaitée :**
 - 3 notes dans [0 ; 4]
 - 8 notes dans [5 ; 8]
 - 10 notes dans [9 ; 12]
 - 6 notes dans [13 ; 16]
 - 3 notes dans [17 ; 20]
 
-**Voici une série possible (triée) :**
+**Série proposée (triée) :**
 
 ```
 1, 1, 4,
@@ -383,30 +544,34 @@ Nous devons fournir :
 18, 19, 20
 ```
 
-**Vérifications :**
+**Vérification des effectifs :**
 
-✅ **Effectifs par classe :** 3 ; 8 ; 10 ; 6 ; 3
+| Classe | Notes dans la série | Nombre |
+|--------|---------------------|--------|
+| [0 ; 4] | 1, 1, 4 | 3 ✓ |
+| [5 ; 8] | 5, 5, 6, 6, 7, 7, 8, 8 | 8 ✓ |
+| [9 ; 12] | 9, 9, 9, 10, 10, 10, 10, 11, 11, 12 | 10 ✓ |
+| [13 ; 16] | 14, 14, 15, 15, 16, 16 | 6 ✓ |
+| [17 ; 20] | 18, 19, 20 | 3 ✓ |
 
-✅ **Somme des notes :** 306
+**Vérification de la somme (calcul détaillé) :**
 
-✅ **Moyenne exacte :**
+- Groupe 1 : 1 + 1 + 4 = **6**
+- Groupe 2 : (5 + 5) + (6 + 6) + (7 + 7) + (8 + 8) = 10 + 12 + 14 + 16 = **52**
+- Groupe 3 : (9 × 3) + (10 × 4) + (11 × 2) + 12 = 27 + 40 + 22 + 12 = **101**
+- Groupe 4 : (14 × 2) + (15 × 2) + (16 × 2) = 28 + 30 + 32 = **90**
+- Groupe 5 : 18 + 19 + 20 = **57**
 
-$$\bar{x} = \frac{306}{30} = \boxed{10{,}2}$$
+**Somme totale :** 6 + 52 + 101 + 90 + 57 = **306**
 
-*(Cohérent avec l'estimation précédente, proche de 10,18)*
+**Moyenne exacte :** 306 ÷ 30 = **10,2** ✓
 
-✅ **Médiane :**
-
+**Médiane exacte :**
 - 15ᵉ valeur = 10
 - 16ᵉ valeur = 10
+- Médiane = (10 + 10) ÷ 2 = **10** ✓
 
-$$\text{Médiane} = \frac{10 + 10}{2} = \boxed{10}$$
-
-*(Les 15ᵉ et 16ᵉ positions sont bien dans la classe [9 ; 12])*
-
----
-
-## 📊 Conclusion rapide
+**Tableau récapitulatif :**
 
 | Indicateur | Valeur |
 |------------|--------|
@@ -419,4 +584,84 @@ $$\text{Médiane} = \frac{10 + 10}{2} = \boxed{10}$$
 
 ---
 
-📄 *Exercice type examen préparé pour une séance de statistique — Niveau Troisième (France).*
+## 📚 MÉTHODES À RETENIR
+
+### 1️⃣ Calcul de l'étendue
+
+```
+Étendue = Valeur maximale − Valeur minimale
+```
+
+### 2️⃣ Moyenne par classes (approximation)
+
+**Étapes :**
+1. Calculer le centre de chaque classe : (borne inf + borne sup) ÷ 2
+2. Multiplier chaque centre par son effectif
+3. Additionner tous les produits
+4. Diviser par le nombre total d'individus
+
+**Formule :**
+```
+Moyenne = (c₁ × n₁ + c₂ × n₂ + ... + cₖ × nₖ) ÷ N
+```
+Où :
+- cᵢ = centre de la classe i
+- nᵢ = effectif de la classe i
+- N = effectif total
+
+### 3️⃣ Médiane
+
+**Pour un effectif pair (N) :**
+```
+Médiane = (valeur en position N/2 + valeur en position N/2+1) ÷ 2
+```
+
+**Pour un effectif impair (N) :**
+```
+Médiane = valeur en position (N+1)/2
+```
+
+**Avec des classes :**
+1. Calculer les effectifs cumulés
+2. Repérer la classe contenant la position médiane
+3. Estimer avec le centre de cette classe
+
+### 4️⃣ Vérification d'une moyenne exacte
+
+Pour N notes entières, la moyenne exacte M doit vérifier :
+```
+M × N = nombre entier
+```
+
+### 5️⃣ Construction d'une série
+
+**Méthode :**
+1. Lister les valeurs possibles pour chaque classe
+2. Répartir les notes en respectant les effectifs
+3. Viser une somme proche de : Moyenne estimée × N
+4. Vérifier : effectifs, somme, moyenne, médiane
+
+---
+
+## 💡 CONSEILS PRATIQUES
+
+✅ **Pour éviter les erreurs :**
+- Toujours vérifier que la somme des effectifs = effectif total
+- Bien distinguer les classes fermées [a ; b] et ouvertes [a ; b[
+- Détailler tous les calculs intermédiaires
+- Vérifier la cohérence entre moyenne estimée et moyenne exacte
+
+✅ **Pour gagner du temps :**
+- Utiliser un tableau pour organiser les calculs
+- Regrouper les opérations similaires
+- Vérifier au fur et à mesure
+
+✅ **Pour la rédaction :**
+- Toujours indiquer la méthode utilisée
+- Présenter les calculs clairement
+- Encadrer ou souligner la réponse finale
+- Ajouter les unités si nécessaire
+
+---
+
+📄 *Document de révision préparé pour une séance de statistiques — Niveau Troisième (France)*
